@@ -4,6 +4,7 @@ Sample posterior of gamma distribution Hyperparameters with Metropolis Hastings 
 Call main.m to run on simulated data
 
 %METROPOLISHASTINGS(X,N) Sample gamma hyperparameters w/ Metropolis-Hastings
+
 %   [A,B] = SAMPLEGAMMAPARM(X,N) returns N samples from the posterior of
 %   the gamma distribution's shape and rate parameters A and B given a set 
 %   of observations X using the Metropolis-Hastings algorithm. The proposal
